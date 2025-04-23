@@ -11,14 +11,6 @@ interface Pokemon {
   height: number;
   weight: number;
   abilities: string[];
-  stats: {
-    hp: number;
-    attack: number;
-    defense: number;
-    specialAttack: number;
-    specialDefense: number;
-    speed: number;
-  };
 }
 
 interface PokeAPIPokemon {
